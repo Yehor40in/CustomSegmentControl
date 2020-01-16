@@ -46,9 +46,7 @@ class CustomSegmentControl: UIView {
     
     // MARK: - Inspectable properties
     @IBInspectable var currentIndex: Int = 0
-    @IBInspectable var optionsCount: Int = 3 {
-        didSet { setNeedsDisplay() }
-    }
+    @IBInspectable var optionsCount: Int = 3
     @IBInspectable var titles: [String] = ["first", "second", "third"]
     @IBInspectable var fontSize: CGFloat = 20
     
