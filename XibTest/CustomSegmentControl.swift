@@ -95,7 +95,7 @@ class CustomSegmentControl: UIView {
         highlightLayer.cornerRadius = cornerRadius
         highlightLayer.colors = getGradients().first
         setGradientDirection()
-        layer.addSublayer(highlightLayer)
+        contentView.layer.addSublayer(highlightLayer)
     }
     
     private func getGradients() -> [[CGColor]] {
