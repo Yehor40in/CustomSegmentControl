@@ -21,7 +21,7 @@ MyViewController: UIVIewController: CustomSegmentControlDelegate {
     view.addSubview(control)
   }
   
-  func customSegmentControl(segmentControl: CustomSegmentControl didChangeValue value: Int) {
+  func customSegmentControl(_ segmentControl: CustomSegmentControl didChangeValue value: Int) {
     // Your code goes here
     // triggers when segmentControl changed value
   }
