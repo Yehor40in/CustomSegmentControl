@@ -16,7 +16,7 @@ MyViewController: UIVIewController: CustomSegmentControlDelegate {
     super.viewDidLoad()
     control = CustomSegmentControl(frame: frame)
     
-    **control.delegate = self**
+    control.delegate = self
  
     view.addSubview(control)
   }
