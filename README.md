@@ -5,6 +5,8 @@
  # Usage
 
 If you would like to customize control with Interace builder, create and connect referencing outlets to ```CustomSegmentControl```. Don't forget to specify file's owner for your ```.xib``` file and mention it during initialization.
+Change ```optionsCount``` and ```cornerRadius``` properties to make this control fit your design. Set your titles in ```titles``` array property.
+
 Make sure your controller conforms to ```CustomSegmentControlDelegate```, for example:
 
 ```
@@ -14,7 +16,7 @@ MyViewController: UIVIewController: CustomSegmentControlDelegate {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    control = CustomSegmentControl(frame: frame)
+    control = CustomSegmentControl(frame: CGRect(x: 100, y: 100, width: 300, height: 50))
     
     control.delegate = self
  
