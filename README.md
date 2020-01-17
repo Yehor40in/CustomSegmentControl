@@ -13,7 +13,7 @@ Change ```optionsCount``` and ```cornerRadius``` properties to make this control
 
 ```
 
-MyViewController: UIVIewController: CustomSegmentControlDelegate {
+class MyViewController: UIVIewController: CustomSegmentControlDelegate {
   var control: CustomSegmentControl! 
   
   override func viewDidLoad() {
