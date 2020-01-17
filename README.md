@@ -4,10 +4,12 @@
 
  # Usage
 
-If you would like to customize control with Interace builder, create and connect referencing outlets to ```CustomSegmentControl```. Don't forget to specify file's owner for your ```.xib``` file and mention it during initialization.
-Change ```optionsCount``` and ```cornerRadius``` properties to make this control fit your design. Set your titles in ```titles``` array property.
+* If you would like to customize control with Interace builder, create and connect referencing outlets to ```CustomSegmentControl```. 
+* Don't forget to specify file's owner for your ```.xib``` file and mention it during initialization.
+Change ```optionsCount``` and ```cornerRadius``` properties to make this control fit your design.
+* Set your titles in ```titles``` array property.
 
-Make sure your controller conforms to ```CustomSegmentControlDelegate```, for example:
+* Make sure your controller conforms to ```CustomSegmentControlDelegate```, for example:
 
 ```
 
