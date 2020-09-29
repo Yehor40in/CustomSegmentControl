@@ -32,7 +32,7 @@ class MyViewController: UIVIewController, CustomSegmentControlDelegate {
 }
 ```
 
-# Contribution
+# Contribution & Usage
 
 Download the project to see example.
 Feel free to play around with this control and add your customizations
